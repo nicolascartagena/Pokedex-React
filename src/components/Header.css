@@ -1,0 +1,24 @@
+.encabezado {
+    background-color: #4790D5;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado img {
+    width: 20%;
+    margin: 10px 0;
+}
+
+@media (max-width: 900px) {
+    .encabezado img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .encabezado img {
+        width: 50%;
+    }
+}

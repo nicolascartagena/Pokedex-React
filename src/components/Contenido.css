@@ -1,0 +1,17 @@
+.contenido {
+    background-color: #E0DEDD;
+    width: 68%;
+    margin: auto;
+    border-radius: 0 0 5px 5px;
+    border: solid 3px #000;
+    padding: 15px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+@media (max-width: 1900px) {
+    .contenido {
+        width: 80%;
+    }
+}
